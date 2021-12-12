@@ -4,20 +4,20 @@ $('document').ready(function () {
 	var totalScore = 0;
 
 	// Generate and show random number
-	var randomNumber = Math.floor(Math.random() * 101) + 19;
+	var randomNumber = ~~(Math.random() * 101) + 19;
 	$('#random-number').text(randomNumber);
 
 	// Assign random numbers to  crystals
-	var crystal = Math.floor(Math.random() * 11) + 1;
+	var crystal = ~~(Math.random() * 11) + 1;
 	$('#crystal').val(crystal);
 	console.log(crystal);
-	var emerald = Math.floor(Math.random() * 11) + 1;
+	var emerald = ~~(Math.random() * 11) + 1;
 	$('#emerald').val(emerald);
 	console.log(emerald);
-	var sapphire = Math.floor(Math.random() * 11) + 1;
+	var sapphire = ~~(Math.random() * 11) + 1;
 	$('#sapphire').val(sapphire);
 	console.log(sapphire);
-	var zircon = Math.floor(Math.random() * 11) + 1;
+	var zircon = ~~(Math.random() * 11) + 1;
 	$('#zircon').val(zircon);
 	console.log(zircon);
 
